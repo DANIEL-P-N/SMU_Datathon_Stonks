@@ -154,7 +154,7 @@ output.head(6)
 """We then use Gemini's API to generate a summary of the textual evidence based on the above manipulation."""
 
 # Set up Gemini API
-API_KEY = "YOUR_API_KEY"  # Replace with your actual API key
+API_KEY = "YOUR_API_KEY"  
 genai.configure(api_key=API_KEY)
 
 # Combine all news articles into one text block
